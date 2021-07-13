@@ -18,7 +18,6 @@ import org.springframework.web.bind.annotation.RestController;
 @RestController
 public class TestController
 {
-
     @Autowired
     private KafkaProducer kafkaProducer;
 
