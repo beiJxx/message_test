@@ -49,6 +49,9 @@ public class TopicRabbitMQConfig
 
     /**
      * 绑定路由键为topic.#规则
+     * <p>
+     * *  (星号) 用来表示一个单词 (必须出现的)
+     * #  (井号) 用来表示任意数量（零个或多个）单词
      */
     @Bean
     public Binding binding2() {
